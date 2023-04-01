@@ -1,13 +1,21 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --color-red: #d84a4a;
+  --color-gray: #425966;
+}
+@font-face {
+  font-family: 'Monster Clubhouse';
+  src: url('./assets/fonts/Monster\ Clubhouse.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+img {
+  width: 100%;
+  height: 100%;
 }

@@ -1,46 +1,43 @@
-# Getting Started with Create React App
+# Prueba técnica de desarrollo frontend con React, Typescript y consumo API de Spoonacular
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este repositorio contiene la prueba técnica realizada por Adrian Santamaria para el puesto de desarrollador frontend. La prueba consistió en consumir la API de Spoonacular para mostrar en una página web un listado de recetas aleatorias y su información asociada, todo esto desarrollado con React y Typescript.
 
-## Available Scripts
+## Tecnologías utilizadas
+- React
+- Typescript
+- Axios (para el consumo de la API de Spoonacular)
 
-In the project directory, you can run:
+## Instrucciones de instalación y uso
+Para poder ejecutar este proyecto, es necesario contar con Node.js instalado en tu computadora. A continuación, sigue estos pasos:
 
-### `npm start`
+1. Clona el repositorio a tu computadora con el siguiente comando en la terminal: 
+    ```
+    git clone https://github.com/<nombre-de-usuario>/prueba-tecnica-frontend-react.git
+    ```
+2. Entra al directorio del proyecto y ejecuta el siguiente comando para instalar las dependencias:
+    ```
+    cd prueba-tecnica-frontend-react
+    npm install
+    ```
+3. Crea un archivo .env en la raíz del proyecto y agrega la siguiente línea:
+    ```
+    REACT_APP_SPOONACULAR_API_KEY=<tu-clave-de-API-de-Spoonacular>
+    ```
+4. Ejecuta el siguiente comando para iniciar la aplicación:
+    ```
+    npm start
+    ```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Esto iniciará la aplicación en http://localhost:3000. Abre esa dirección en tu navegador para ver la aplicación en funcionamiento.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Estructura del proyecto
+- `src/`: Contiene todo el código fuente del proyecto.
+- `assets/`: Contiene las imágenes y otros recursos utilizados en la aplicación.
+- `components/`: Contiene los componentes React utilizados en la aplicación.
+- `styles/`: Contiene los estilos CSS utilizados en la aplicación.
+- `App.tsx`: Componente principal de la aplicación.
+- `index.tsx`: Punto de entrada de la aplicación.
+- `public/`: Contiene los archivos públicos de la aplicación.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Agradecimientos
+Agradezco a la empresa por la oportunidad de realizar esta prueba técnica y por la posibilidad de demostrar mis habilidades en el desarrollo frontend.
