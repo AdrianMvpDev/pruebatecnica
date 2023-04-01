@@ -120,6 +120,7 @@
     width: 85%;
   }
   @media (max-width: 428px) {
+    padding: 0;
     margin-left: 35px;
   }
   h2 {
@@ -220,7 +221,16 @@
       display: block;
     }
     @media (max-width: 768px) {
-      height: auto;
+      height: 269px;
+      .recipe-card-text {
+        display: flex;
+      }
+      .recipe-card-text-alternative {
+        display: none;
+      }
+    }
+    @media (max-width: 428px) {
+      height: 180px;
     }
   }
   @media (max-width: 768px) {
@@ -280,6 +290,9 @@
     color: var(--color-red);
     padding-top: 5px;
     margin-left: 5px;
+    @media (max-width: 768px) {
+      padding-top: 2px;
+    }
     @media (max-width: 428px) {
       font: normal normal normal 20px/24px Monster Clubhouse;
     }
@@ -306,6 +319,9 @@
   bottom: 20px;
   &.hidden {
     display: none;
+    @media (max-width: 768px) {
+      display: flex;
+    }
   }
 }
 .recipe-point__value {
@@ -328,6 +344,9 @@
   bottom: 20px;
   &.hidden {
     display: none;
+    @media (max-width: 768px) {
+      display: flex;
+    }
   }
 }
 .container-hover {
